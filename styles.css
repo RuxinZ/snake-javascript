@@ -1,0 +1,8 @@
+#snakeboard {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); 
+  /* center the snakeboard */
+  /* translate it 50% of its own width to the left and 50% of its own height up, relative to its current position. */
+}
