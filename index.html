@@ -6,11 +6,48 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="./styles.css">
   <link rel="icon" href="./favicon.ico">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap" rel="stylesheet">
   <script defer src="./index.js"></script>
   <title>Snake Game</title>
 </head>
 <body>
-  <div id="score">0</div>
+  <div class="container__features">
+    <div class="container__curcent-score">
+      <h2>Current Score</h2>
+      <div id="score">0</div>
+    </div>
+    <div class="container__highest_score">
+      <h2>Highest Score</h2>
+      <div id="score">0</div>
+    </div>
+    <div class="container_difficulty">
+      <div class="dropdown">
+        <button class="dropbtn">Dropdown</button>
+        <div class="dropdown-content">
+          <a href="#">Easy</a>
+          <a href="#">Medium</a>
+          <a href="#">Hard</a>
+        </div>
+
+    </div>
+  </div>
+  
+  
   <canvas id="snakeboard" width="400" height="400"><canvas></canvas>
 </body>
 </html>
+
+<!-- 
+Add features:
+restart button
+current score
+difficulty
+
+highest score
+player login
+
+
+
+ -->
